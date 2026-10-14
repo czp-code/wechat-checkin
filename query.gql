@@ -1,0 +1,114 @@
+mutation createBaomingByInput($input: createBaomingInput!) {
+  createBaomingByInput(input: $input) {
+    _id
+    no
+    noLabel
+    infoKey
+    infoVal
+    fillContent {
+      infoFormsId
+      fillContents {
+        optionIdx
+        optionVal
+      }
+    }
+    bookStatus
+    formVal {
+      id
+      type
+      title
+      options
+      value
+      markedValue
+      order
+      isInfoOption
+      infoOptions {
+        title
+        isImage
+        imageUrl
+        score
+      }
+      isScoreOption
+      questionOptions {
+        title
+      }
+      groupInfoForms {
+        id
+        isRemove
+        type
+        optionDisplayStyle
+        title
+        desc
+        order
+        required
+        options
+        maxSelect
+        minSelect
+        mediaSourceType
+        textareaRow
+        limitCharGt
+        limitCharlt
+        allowOther
+        isOriginal
+        isDownloadOriginal
+        banUpdate
+        privateResult
+        collectAddressType
+      }
+      collectAddressType
+      formValGroups {
+        id
+        formVal {
+          id
+          type
+          title
+          options
+          value
+          markedValue
+          order
+          isInfoOption
+          infoOptions {
+            title
+            isImage
+            imageUrl
+            score
+          }
+          isScoreOption
+          questionOptions {
+            title
+          }
+        }
+      }
+    }
+    createdBy
+    signUrl
+    orderId
+    locationInfo {
+      name
+      longtitude
+      lattitude
+    }
+    pictures
+    audios
+    videos
+    videoBucket
+    selectOptions
+    submitDayStr
+    submitDayIndex
+    createdByUser {
+      avatar
+    }
+    isPassSecurity
+    createdAt
+    bookStatus
+    bookTime
+    bookOption
+    shopProductsVal {
+      id
+      title
+      price
+      count
+      tags
+    }
+  }
+}

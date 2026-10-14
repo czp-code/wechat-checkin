@@ -1,0 +1,14 @@
+# 真实凭证 —— 绝不提交
+config.local.json
+
+# 运行时产物
+logs/
+state/
+
+# 方案文档（含个人信息）
+*.docx
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store

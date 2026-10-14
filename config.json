@@ -1,0 +1,43 @@
+{
+  "endpoint": "https://www.aiphoto8.cn/api/graphql",
+  "operationName": "createBaomingByInput",
+  "input": {
+    "userId": "6aad22ac361a3c080f11b4e7",
+    "tongjiId": "6aad01bcbcbbbcd222ca7879",
+    "submitDayIndex": 0,
+    "infoKey": [
+      "班级",
+      "姓名",
+      "住宿地点",
+      "是否安全到达住宿地点"
+    ],
+    "infoVal": [
+      "计算机硕士2604班",
+      "陈泽平",
+      0,
+      0
+    ],
+    "signUrl": "",
+    "no": 152,
+    "noLabel": "152"
+  },
+  "headers": {
+    "authorization": "Bearer <在这里填你自己的token>",
+    "referer": "https://servicewechat.com/wxb459cbb1642333e5/161/page-frame.html",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 MicroMessenger/7.0.20.1781(0x6700143B) NetType/WIFI MiniProgramEnv/Windows WindowsWechat/WMPF WindowsWechat(0x63090a13) UnifiedPCWindowsWechat(0xf2541f0d) XWEB/25715",
+    "xweb_xhr": "1",
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9"
+  },
+  "alreadyDonePatterns": [
+    "您已完成接龙",
+    "无需再接龙",
+    "已经打卡",
+    "已打卡"
+  ],
+  "retries": 3,
+  "retryDelayMs": 30000,
+  "timeoutMs": 15000,
+  "skipIfAlreadySucceededToday": true,
+  "webhookUrl": ""
+}
